@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*
-
+ Name: InstagramView
 */
 
 /* ~~ */
@@ -182,23 +182,6 @@ h6, .h6 {
 
 
 /* @group ~~~~~~~~~~~~~~~~~~~~ SPECIFIC classes ~~~~~~~~~~~~~~~~~~~~ */
-
-#logo {
-	background: url('/assets/images/dark-logo.png') no-repeat top left;
-	display:block;
-	height:150px;
-	width:150px;
-	margin:35px auto;
-	text-indent:-999em;
-	text-align:left;
-	box-sizing:border-box;
-	opacity: 1;
-}
-#logo:hover
-{	
-	opacity: 0.9;
-	background: url('/assets/images/white-logo.png') no-repeat top left;
-}
 
 
 
