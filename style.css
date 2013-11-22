@@ -1,0 +1,325 @@
+@charset "utf-8";
+/*
+
+*/
+
+/* ~~ */
+/* ~~ ~~ */
+/* ~~ ~~ ~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~ ~~ ~~ */
+/* ~~ ~~ */
+/* ~~ */
+
+
+/* @group ~~~~~~~~~~~~~~~~~~~~ Eric Meyer's Reset CSS v2.0 ~~~~~~~~~~~~~~~~~~~~ */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* @end */
+
+html ::selection,
+body ::selection,
+button ::selection,
+input ::selection,
+select ::selection,
+textarea ::selection 		{background: #555; color: #fff;}
+
+html ::-moz-selection,
+body ::-moz-selection,
+button ::-moz-selection,
+input ::-moz-selection,
+select ::-moz-selection,
+textarea ::-moz-selection 	{background: #555; color: #fff;}
+
+
+body
+{
+	font-size: 18px;
+	word-spacing: 1px;
+	line-height: 24px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	letter-spacing: 0;
+	background:#f5f5f5;
+	color: #555;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	width:100%;
+	height:100%;
+}
+
+body:before
+{
+	width:100%;
+	height:10px;
+	content:"";
+	-webkit-box-shadow:0 15px 21px rgba(127,127,127,0.8);
+	box-shadow:0 15px 21px rgba(127,127,127,0.8);
+	position:absolute;
+	top:-15px;
+	left:0;
+	z-index:100;
+}
+
+/* @group ~~~~~~~~~~~~~~~~~~~~ ELEMENT/TAG selectors ~~~~~~~~~~~~~~~~~~~~ */
+
+a img 						{border:none;}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6
+{
+  font-family: "freightsans_regular", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #181818;
+  margin: 40px 0 15px 0;
+}
+
+h1.secondary, .h1.secondary,
+h2.secondary, .h2.secondary,
+h3.secondary, .h3.secondary,
+h4.secondary, .h4.secondary,
+h5.secondary, .h5.secondary,
+h6.secondary, .h6.secondary,
+h1.secondary a, .h1.secondary a,
+h2.secondary a, .h2.secondary a,
+h3.secondary a, .h3.secondary a,
+h4.secondary a, .h4.secondary a,
+h5.secondary a, .h5.secondary a,
+h6.secondary a, .h6.secondary a
+{
+  color: #98499c;
+}
+
+h1, .h1 {
+  font-size: 34px;
+  word-spacing: 1px;
+  line-height: 40px;
+}
+
+h2, .h2 {
+  font-size: 24px;
+  word-spacing: 1px;
+  line-height: 30px;
+}
+
+h3, .h3 {
+  font-size: 20px;
+  word-spacing: 1px;
+  line-height: 22px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+  word-spacing: 1px;
+  line-height: 20px;
+}
+
+h5, .h5 {
+  font-size: 16px;
+  word-spacing: 1px;
+  line-height: 18px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+  word-spacing: 1px;
+  line-height: 14px;
+}
+
+
+.pseudo-link
+{
+  -webkit-transition: all 275ms;
+  -moz-transition: all 275ms;
+  -o-transition: all 275ms;
+  transition: all 275ms;
+  cursor: pointer;
+  text-decoration: none;
+  color: #666;
+  padding-bottom: -1px;
+  border-bottom: 1px solid #dedede;
+}
+
+.pseudo-link:hover, .pseudo-link:focus, .pseudo-link:active, .pseudo-link.active
+{color: #000;border-bottom: 1px solid #000;}
+
+/* @end */
+
+/* @group ~~~~~~~~~~~~~~~~~~~~ GENERAL classes ~~~~~~~~~~~~~~~~~~~~ */
+
+.container 	{width:100%; margin:30px auto; margin-bottom: 50px; text-align:left;}
+
+.content 	{width:100%;min-height: 680px;}
+
+.footer  	{width: 100%; bottom: 30px; margin-top: 50px; text-align: center;}
+.floatR 	{float:right; margin-left:10px;}
+.floatL 	{float:left; margin-right:10px;}
+.clear		{clear:both; height:0;font-size:1px;line-height:0px;}
+
+.align-right 	{text-align: right;padding-left:100px;}
+.align-left 	{text-align: left;padding-right:100px;}
+.align-center 	{text-align: center;padding:0 50px;}
+
+/* @end */
+
+/* @group ~~~~~~~~~~~~~~~~~~~~ MAIN-MENU classes ~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* @end */
+
+/* @group ~~~~~~~~~~~~~~~~~~~~ SMALL-MENU classes ~~~~~~~~~~~~~~~~~~~~ */
+
+/* @end */
+
+
+/* @group ~~~~~~~~~~~~~~~~~~~~ SPECIFIC classes ~~~~~~~~~~~~~~~~~~~~ */
+
+#logo {
+	background: url('/assets/images/dark-logo.png') no-repeat top left;
+	display:block;
+	height:150px;
+	width:150px;
+	margin:35px auto;
+	text-indent:-999em;
+	text-align:left;
+	box-sizing:border-box;
+	opacity: 1;
+}
+#logo:hover
+{	
+	opacity: 0.9;
+	background: url('/assets/images/white-logo.png') no-repeat top left;
+}
+
+
+
+.footer .love				{font: 300 18px/32px freightsans_regular; width: 100%;margin-bottom: 5px;}
+.footer .love span			{margin-right: 2px; color: #ECA1B2; color: rgba(251, 50, 96, 0.40); -webkit-transition: color ease-in 0.2s;}
+.footer .love:hover > span 	{color: #FB3260;}
+
+.footer .copyright			{font: 200 13px/15px freightsans_regular; width: 100%;}
+
+.footer .social-icons		{margin:5px 0}
+.footer .social-icons a		{margin-left: 5px;}
+.footer .social-icons a img	{width: 32px;}
+
+
+
+.popup
+{
+	-webkit-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+	-moz-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+}
+
+.popup:hover
+{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	
+	-webkit-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+	-moz-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+	
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.7);
+}
+
+h1.popup:hover	{box-shadow: none;}
+h1.popup:hover	{text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);;}
+
+.container .content .text
+{
+	text-align:center;
+	z-index:9999;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height:150px;
+	width: 860px;
+	margin-left: -430px; /* negative half of the width */
+	margin-top: -75px; /* negative half of the height */	
+}
+.container .content .text p
+{
+	font-size: 18px;
+	line-height: 25px;
+	width: 600px;
+	margin:30px 0 0 135px;
+	
+	background: #fff;
+	padding: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.container .content .text h1
+{
+	font-size: 90px;
+	line-height: 90px;
+	letter-spacing:-1px;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	color:#fff;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7)
+}
+
+.container .content #instafeed	{}
+.container .content #instafeed a
+{
+	float:left;
+	margin: 5px;
+	text-decoration:none;
+	position:relative;
+}
+.container .content #instafeed a img
+{
+	width:100%;
+	max-width:100%;
+	height:auto;
+	position:relative;
+	opacity: 0.7;
+	
+	-webkit-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+	-moz-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+}
+.container .content #instafeed a img:hover
+{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	
+	-webkit-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+	-moz-transition: all 300ms cubic-bezier(0.685, 0.145, 0.060, 0.955);
+	
+	z-index: 9998;
+	opacity: 1;
+	box-shadow: 0px 0px 10px rgba(151, 150, 150, 1);
+}
+
+/* @end */
+
+/* @group ~~~~~~~~~~~~~~~~~~~~ TEXT classes ~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~! text size !~~~~~~~~~~ */
+.size-8		{font-size:8px;}
+.size-9		{font-size:9px;}
+.size-10	{font-size:10px; line-height:11px}
+.size-11	{font-size:11px}
+.size-14	{font-size:14px;}
+.size-18	{font-size:18px;font-weight:normal}
+.size-20	{font-size:20px;font-weight:normal}
+.size-24	{font-size:24px;font-weight:normal}
+
+
+/* @end */
